@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "next-view-transitions";
 
 import { getBlogs } from "@/utils/mdx";
-import { SectionHeading } from "./section-heading";
+
 import { MotionDiv } from "./motion-div";
 import { SubHeading } from "./subheading";
 

@@ -1,9 +1,12 @@
+// src/components/motion-div.tsx
 "use client";
-import React from "react";
-import { AnimationProps, motion } from "motion/react";
 
-export const MotionDiv = (
-  props: AnimationProps & { children?: React.ReactNode },
-) => {
+import React from "react";
+import { motion } from "motion/react";
+
+// Infer the exact props of <motion.div> including children
+export type MotionDivProps = React.ComponentProps<typeof motion.div>;
+
+export const MotionDiv: React.FC<MotionDivProps> = (props) => {
   return <motion.div {...props} />;
 };

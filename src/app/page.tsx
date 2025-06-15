@@ -11,7 +11,6 @@ import { ExperienceSection } from "@/components/experience";
 import { ProjectsCarousel } from "@/components/projects-carousel";
 import { SkillsScroller } from "@/components/SkillsScroller";
 import { SectionHeading } from "@/components/section-heading";
-import { Bold } from "lucide-react";
 
 export default function Home() {
   return (

@@ -1,22 +1,22 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
-
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   transpilePackages: ["next-mdx-remote"],
-
   images: {
     remotePatterns: [
       {
+        protocol: "https",
         hostname: "i.pinimg.com",
+        port: "", // optional
+        pathname: "/**", // allow any path
+      },
+      {
+        protocol: "https",
+        hostname: "in.pinterest.com",
+        port: "",
+        pathname: "/**",
       },
     ],
   },
 };
-
-// const withMDX = createMDX({
-//   // Add markdown plugins here, as desired
-//   extension: /\.(md|mdx)$/,
-// });
 
 export default nextConfig;

@@ -9,7 +9,6 @@ import {
   useScroll,
   useTransform,
 } from "framer-motion";
-import { DarkModeToggle } from "@/components/DarkModeToggle";
 
 export const Navbar = () => {
   const navItems = [

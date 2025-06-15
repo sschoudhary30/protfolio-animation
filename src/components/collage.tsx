@@ -3,7 +3,7 @@ import {
   DraggableCardBody,
   DraggableCardContainer,
 } from "@/components/ui/draggable-card";
-
+import Image from "next/image";
 export function Collage() {
   const items = [
     {
@@ -33,13 +33,13 @@ export function Collage() {
     },
     {
       title: "Black & White",
-      image: "black.png",
+      image: "/black.png",
       className: "absolute top-24 left-[45%] rotate-[-7deg]",
     },
     {
       title: "Panacea",
       image: "/panacea.png",
-      className: "absolute top-5 left-[30%] rotate-[4deg]",
+      className: "absolute top-60 left-[55%] rotate-[4deg]",
     },
     {
       title: "Advait1",
@@ -56,11 +56,6 @@ export function Collage() {
       image: "/neurobit.png",
       className: "absolute top-5 right-[70%] rotate-[8deg]",
     },
-    {
-      title: "DariyX1",
-      image: "/dariyX.webp",
-      className: "absolute top-32 left-[70%] rotate-[10deg]",
-    },
   ];
   return (
     <DraggableCardContainer className="relative my-6 flex min-h-[32rem] w-full items-center justify-center overflow-clip">
@@ -72,9 +67,11 @@ export function Collage() {
           key={item.title}
           className={`${item.className} rounded-4xl`}
         >
-          <img
+          <Image
             src={item.image}
             alt={item.title}
+            width={400}
+            height={300}
             className="pointer-events-none relative z-10 h-50 w-80 rounded-2xl object-cover"
           />
           <h3 className="mt-2 text-center text-base font-bold text-neutral-700 dark:text-neutral-300">

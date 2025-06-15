@@ -48,7 +48,7 @@ export default function AboutPage() {
 
         <SubHeading>
           Currently crafting clean code and user-first experiences at Atomic
-          House. Whether it's a frontend detail or backend logic, I believe
+          House. Whether it&apos;s a frontend detail or backend logic, I believe
           thoughtful design belongs in every line.
         </SubHeading>
         <Collage />

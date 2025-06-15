@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Marquee from "react-fast-marquee";
-
+import Image from "next/image";
 import { SubHeading } from "./subheading";
 
 export const Testimonials = () => {
@@ -23,7 +23,8 @@ export const Testimonials = () => {
       quote:
         "The mockups Suresh delivered helped us speed up our development cycle significantly.",
       name: "John Doe",
-      avatar: "https://in.pinterest.com/pin/29977153764572554/",
+      avatar:
+        "https://i.pinimg.com/736x/6f/a3/6a/6fa36aa2c367da06b2a4c8ae1cf9ee02.jpg",
     },
     {
       quote:
@@ -72,7 +73,13 @@ const TestimonialCard = ({
     <div className="shadow-aceternity mx-4 flex h-50 w-full max-w-60 flex-col justify-between gap-4 rounded-xl p-4 transition duration-300 hover:translate-y-1 hover:scale-105 hover:shadow-md">
       <p className="text-sm text-neutral-700">{quote}</p>
       <div className="item-center flex gap-4">
-        <img src={avatar} alt={name} className="size-6 rounded-full" />
+        <Image
+          src={avatar}
+          alt={name}
+          width={64}
+          height={64}
+          className="size-6 rounded-full"
+        />
         <p className="text-sm text-neutral-500">{name}</p>
       </div>
     </div>
