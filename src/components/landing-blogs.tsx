@@ -4,6 +4,7 @@ import { Link } from "next-view-transitions";
 import { getBlogs } from "@/utils/mdx";
 import { SectionHeading } from "./section-heading";
 import { MotionDiv } from "./motion-div";
+import { SubHeading } from "./subheading";
 
 export const LandingBlogs = async () => {
   const allBlogs = await getBlogs();
@@ -11,23 +12,10 @@ export const LandingBlogs = async () => {
   const truncate = (s: string, n: number) =>
     s.length > n ? s.slice(0, n) + "…" : s;
   return (
-    <div className="">
-      <div className="relative mb-5 inline-block overflow-hidden rounded-full p-px">
-        <span
-          aria-hidden
-          className="animate-spin-beam pointer-events-none absolute inset-0 bg-gradient-to-r from-transparent via-teal-400 to-transparent"
-        />
-        <span
-          aria-hidden
-          className="animate-spin-beam-2 pointer-events-none absolute inset-0 bg-gradient-to-r from-transparent via-cyan-400 to-transparent"
-        />
-
-        <div className="text-secondary relative rounded-lg bg-neutral-100 px-6 py-2 text-sm md:text-sm dark:bg-neutral-900">
-          <SectionHeading delay={0.4} className="p-1">
-            I love writing things down 📒.
-          </SectionHeading>
-        </div>
-      </div>
+    <div className="my-10 space-y-6">
+      <SubHeading className="text-primary py-5 text-xl font-bold md:text-2xl">
+        I love writing things down 📒.
+      </SubHeading>
 
       <div className="flex flex-col gap-8">
         {allBlogs.slice(0, 4).map((blog, idx) => (

@@ -8,7 +8,8 @@ import {
   useMotionValueEvent,
   useScroll,
   useTransform,
-} from "motion/react";
+} from "framer-motion";
+import { DarkModeToggle } from "@/components/DarkModeToggle";
 
 export const Navbar = () => {
   const navItems = [
@@ -81,7 +82,7 @@ export const Navbar = () => {
               {hovered == idx && (
                 <motion.span
                   layoutId="hovered-span"
-                  className="bg- dark: absolute inset-0 h-full w-full rounded-md bg-neutral-100 dark:bg-neutral-800"
+                  className="absolute inset-0 h-full w-full rounded-md bg-neutral-100 dark:bg-neutral-800"
                 />
               )}
               <span className="relative z-10">{item.title}</span>

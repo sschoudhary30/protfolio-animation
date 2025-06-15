@@ -20,12 +20,27 @@ export const TimeLine = () => {
 
   const data: Data[] = [
     {
+      title: "2021",
+      content: [
+        {
+          title: "Completed 12th Grade – Maharashtra State Board",
+          description:
+            "Graduated with 85% and laid the foundation for my engineering and tech journey.",
+        },
+      ],
+    },
+    {
       title: "2022",
       content: [
         {
-          title: "Vice-chair of ACM DYPCOE",
+          title: "First Freelance Projects",
           description:
-            "Got Chances to server as vice chair of acm dypcoe node and leadership.",
+            "Designed websites and logos, including a sports team logo for my college department.",
+        },
+        {
+          title: "Joined ACES Club",
+          description:
+            "Became a technical member of ACES, the Computer Department Club at DYPCOE.",
         },
       ],
     },
@@ -33,14 +48,14 @@ export const TimeLine = () => {
       title: "2023",
       content: [
         {
-          title: "perese of ACM DYPCOE",
+          title: "Freelance Expansion",
           description:
-            "Got Chances to server as vice chair of acm dypcoe node and leadership.",
+            "Took on unique freelance projects, including working with an international client for logo design.",
         },
         {
-          title: "perese  oof ACM DYPCOE",
+          title: "Hackathon Win",
           description:
-            "Got Chances to server as vice chair of acm dypcoe node and leadership.",
+            "Won my first UI design hackathon with an innovative concept.",
         },
       ],
     },
@@ -48,9 +63,19 @@ export const TimeLine = () => {
       title: "2024",
       content: [
         {
-          title: "tech lead of ACM DYPCOE",
+          title: "Internship at Atomic House",
           description:
-            "Got Chances to server as vice chair of acm dypcoe node and leadership.",
+            "Worked as a Frontend Developer Intern, contributing to UI/UX improvements and user research.",
+        },
+        {
+          title: "Vice Chair – Pradnyan ACM DYPCOE",
+          description:
+            "Led technical teams, conducted workshops, and enhanced club operations.",
+        },
+        {
+          title: "Creative Lead – Advait Tech Fest",
+          description:
+            "Designed branding and a standout logo for the annual college fest.",
         },
       ],
     },
@@ -58,9 +83,14 @@ export const TimeLine = () => {
       title: "2025",
       content: [
         {
-          title: "chair of ACM DYPCOE",
+          title: "2nd Place – National Level Competition (PGMT)",
           description:
-            "Got Chances to server as vice chair of acm dypcoe node and leadership.",
+            "Secured second place for an innovative product design at a national competition.",
+        },
+        {
+          title: "15+ Freelance Projects Completed",
+          description:
+            "Delivered over 15 major freelance design projects, including 4 one-of-a-kind brand identities.",
         },
       ],
     },

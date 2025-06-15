@@ -12,16 +12,16 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Freelancer Portfolio website templete - animation",
+  title: "Freelancer Portfolio website template – animation",
   description:
-    "A perfect portfolio website template that showcase your skills, minimal and smooth microinteractions, perfect for developer and designers.",
+    "A perfect portfolio template that showcases your skills with minimal, smooth micro‑interactions—ideal for developers and designers.",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <ViewTransitions>
       <html lang="en">
