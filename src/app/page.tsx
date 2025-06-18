@@ -60,6 +60,19 @@ export default function Home() {
           applications with clean, maintainable code, seamless animations, and
           accessibility at their core.
         </SubHeading>
+        <div className="mt-8 flex justify-start">
+          <a
+            href="/resume.pdf"
+            download
+            className="group relative inline-flex items-center justify-center overflow-hidden rounded-full bg-neutral-200/50 px-8 py-3 font-semibold"
+          >
+            <span className="border-gradient-to-r absolute inset-0 rounded-full border-2 from-cyan-500 via-pink-500 to-orange-500 bg-origin-border transition-transform duration-300 group-hover:scale-105"></span>
+            <span className="relative bg-gradient-to-r from-purple-400 via-pink-500 to-orange-500 bg-clip-text text-base font-bold text-transparent">
+              Resume
+            </span>
+          </a>
+        </div>
+
         {/* <Projects projects={projects.slice(0, 3)} /> */}
         <ProjectsCarousel projects={projects} />
 
