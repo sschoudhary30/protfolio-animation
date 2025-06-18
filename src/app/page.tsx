@@ -22,29 +22,23 @@ export default function Home() {
         </SectionHeading>
 
         <SubHeading>
-          I&apos;m a software engineer with a passion for building scalable
-          antialiased efficient system. Building{" "}
+          I&apos;m a{" "}
           <span
             style={{
-              color: "gray",
-              backgroundColor: "#DDEB9D",
-              borderRadius: "5px",
-              padding: "3px",
-              margin: "2px",
+              color: "#FF5677",
+
               fontWeight: "bold",
             }}
           >
-            pixel-perfect
-          </span>
-          , lightning-fast web apps ⚡ that engage users through intuitive UI,
-          seamless frontend architecture , and{" "}
+            software
+          </span>{" "}
+          engineer with a passion for building scalable antialiased efficient
+          system. Building pixel-perfect , fast web apps ⚡ that engage users
+          through intuitive UI, seamless frontend architecture, and{" "}
           <span
             style={{
-              color: "white",
-              backgroundColor: "#3D8D7A",
-              borderRadius: "5px",
-              padding: "3px",
-              margin: "2px",
+              color: "#3D8D7A",
+
               fontWeight: "bold",
             }}
           >
@@ -56,11 +50,8 @@ export default function Home() {
           Transforming complex designs into resilient{" "}
           <span
             style={{
-              color: "white",
-              backgroundColor: "#FF5677",
-              borderRadius: "5px",
-              padding: "3px",
-              margin: "2px",
+              color: "#FF5677",
+
               fontWeight: "bold",
             }}
           >

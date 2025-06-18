@@ -16,7 +16,16 @@ export const experiences: Experience[] = [
     end: "2024-06-31",
     description:
       "Led the redesign of the company website, improving cross-device UX and reducing bounce rate by 50%. Enhanced prototyping efficiency with advanced Figma workflows, streamlining design handoff. Designed and implemented smooth transitions to enrich interaction design within the web app. Conducted user research and usability testing to optimize the experience of a SaaS platform.",
-    tech: ["react", "js", "nextjs", "figma", "ai", "tailwindcss", "ps"],
+    tech: [
+      "react",
+      "js",
+      "nextjs",
+      "figma",
+      "ai",
+      "tailwindcss",
+      "ps",
+      "chrome",
+    ],
     logo: "/atomichouse.jpeg",
   },
   {

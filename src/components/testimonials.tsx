@@ -8,35 +8,35 @@ export const Testimonials = () => {
   const data = [
     {
       quote: "Suresh is so great with his UI/UX skills. Highly recommended.",
-      name: "Elon Musk",
+      name: "Shivam",
       avatar:
         "https://i.pinimg.com/736x/0b/97/6f/0b976f0a7aa1aa43870e1812eee5a55d.jpg",
     },
     {
       quote:
         "His design sense is very modern and clean. Loved collaborating on our SaaS project.",
-      name: "Sara Lee",
+      name: "Rahul",
       avatar:
         "https://i.pinimg.com/736x/6f/a3/6a/6fa36aa2c367da06b2a4c8ae1cf9ee02.jpg",
     },
     {
       quote:
         "The mockups Suresh delivered helped us speed up our development cycle significantly.",
-      name: "John Doe",
+      name: "Aditya",
       avatar:
         "https://i.pinimg.com/736x/6f/a3/6a/6fa36aa2c367da06b2a4c8ae1cf9ee02.jpg",
     },
     {
       quote:
         "Very professional and super responsive. His attention to detail is top-notch.",
-      name: "Aisha Rahman",
+      name: "siddhi",
       avatar:
         "https://i.pinimg.com/736x/9f/db/f4/9fdbf4c61a5e5e91878cb7e59655e4a2.jpg",
     },
     {
       quote:
         "A talented designer with strong frontend skills — a rare and valuable combo!",
-      name: "David Kim",
+      name: "riya",
       avatar:
         "https://i.pinimg.com/736x/9f/db/f4/9fdbf4c61a5e5e91878cb7e59655e4a2.jpg",
     },

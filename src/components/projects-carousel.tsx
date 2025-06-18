@@ -50,9 +50,9 @@ export const ProjectsCarousel: React.FC<Props> = ({ projects }) => {
                 <li
                   key={p.title + idx}
                   className="flex-shrink-0"
-                  style={{ width: "clamp(260px, 32vw, 320px)" }}
+                  style={{ width: "clamp(300px, 40vw, 380px)" }}
                 >
-                  <article className="flex h-full flex-col space-y-2 rounded-2xl border p-2">
+                  <article className="flex h-full flex-col space-y-2 rounded-2xl border p-4">
                     {/* animate only toggled card */}
                     <Link href={p.href} className="group block">
                       {isToggled ? (
@@ -66,7 +66,7 @@ export const ProjectsCarousel: React.FC<Props> = ({ projects }) => {
                             src={p.src}
                             alt={p.title}
                             fill
-                            sizes="(min-width:768px) 32vw, 90vw"
+                            sizes="(min-width:768px) 40vw, 90vw"
                             className="object-cover"
                           />
                         </motion.div>
@@ -79,7 +79,7 @@ export const ProjectsCarousel: React.FC<Props> = ({ projects }) => {
                             src={p.src}
                             alt={p.title}
                             fill
-                            sizes="(min-width:768px) 32vw, 90vw"
+                            sizes="(min-width:768px) 40vw, 90vw"
                             className="object-cover"
                           />
                         </div>
@@ -119,29 +119,31 @@ export const ProjectsCarousel: React.FC<Props> = ({ projects }) => {
                         </span>
                       ))}
 
-                      {hasRepo && (
-                        <Link
-                          href={p.repo!}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          aria-label={`${p.title} source code on GitHub`}
-                          className="ml-auto inline-flex items-center justify-center rounded-full border-2 p-1 transition hover:scale-105 hover:bg-neutral-100 dark:hover:bg-neutral-800"
-                        >
-                          <StackIcon name="github" className="h-5 w-5" />
-                        </Link>
-                      )}
-
-                      {hasLiveDemo && (
-                        <Link
-                          href={p.href}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          aria-label={`View live demo of ${p.title}`}
-                          className="inline-flex items-center justify-center rounded-full border-2 p-1 transition hover:scale-105 hover:bg-neutral-100 dark:hover:bg-neutral-800"
-                        >
-                          <ExternalLinkIcon className="h-5 w-5" />
-                        </Link>
-                      )}
+                      {/* Buttons on right */}
+                      <div className="ml-auto flex space-x-2">
+                        {hasRepo && (
+                          <Link
+                            href={p.repo!}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label={`${p.title} source code on GitHub`}
+                            className="inline-flex items-center justify-center rounded-full border-2 p-1 transition hover:scale-105 hover:bg-neutral-100 dark:hover:bg-neutral-800"
+                          >
+                            <StackIcon name="github" className="h-5 w-5" />
+                          </Link>
+                        )}
+                        {hasLiveDemo && (
+                          <Link
+                            href={p.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label={`View live demo of ${p.title}`}
+                            className="inline-flex items-center justify-center rounded-full border-2 p-1 transition hover:scale-105 hover:bg-neutral-100 dark:hover:bg-neutral-800"
+                          >
+                            <ExternalLinkIcon className="h-5 w-5" />
+                          </Link>
+                        )}
+                      </div>
                     </div>
                   </article>
                 </li>

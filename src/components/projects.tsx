@@ -179,6 +179,9 @@ export const Projects = ({
           </div>
         ))}
       </div>
+      <p className="pt-7 text-center text-2xl font-black text-neutral-400 sm:pt-7 md:text-3xl dark:text-neutral-800">
+        This is just the beginning – more work loading... 💥
+      </p>
     </section>
   );
 };
