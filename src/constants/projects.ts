@@ -79,7 +79,7 @@ export const projects: Project[] = [
     tags: ["Web"],
   },
   {
-    title: "Notelly",
+    title: "Do✔",
     src: "/todochrome.png",
     description:
       "Todo New Tab transforms your browser’s new-tab into a focused task hub. Quickly capture tasks with priority levels, mark them done with a click, and clear completed items for a clean workspace. A gradient-bordered “Google Search” button at the top-center seamlessly returns you to Chrome’s default new-tab (chrome://new-tab-page). All tasks are stored locally via chrome.storage, so your list stays with you without any external data collection.",
