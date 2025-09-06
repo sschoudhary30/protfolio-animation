@@ -76,10 +76,10 @@ export default function Home() {
         {/* <Projects projects={projects.slice(0, 3)} /> */}
         <ProjectsCarousel projects={projects} />
 
-        <LandingBlogs />
-        <SkillsScroller />
         <ExperienceSection />
-        <Testimonials />
+        <SkillsScroller />
+        {/* <Testimonials /> */}
+        <LandingBlogs />
       </Container>
     </div>
   );

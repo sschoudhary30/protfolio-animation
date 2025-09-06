@@ -15,7 +15,7 @@ export const Footer = () => {
   return (
     <Container className="flex justify-between border-t border-neutral-200 px-4 py-4">
       <p className="flex items-center gap-2 text-xs text-neutral-500">
-        Built with love by Suresh Choudhary
+        Built with love by sureshchoudhary@gmail.com
         <IconHeartCode className="size-4 stroke-2 text-red-500" />
       </p>
 

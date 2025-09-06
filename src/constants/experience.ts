@@ -10,8 +10,37 @@ export type Experience = {
 
 export const experiences: Experience[] = [
   {
+    company: "KoiAmor",
+    role: "Software Developer Intern",
+    start: "2025-05-11",
+    end: "",
+    description:
+      "Built a headless blog module within the KoiAmor platform, working with backend APIs and database structures for scalability. Developed SEO-friendly React.js pages with responsive layouts, lazy-loading, and sitemap integration, improving mobile usability and reach. Designed and shipped dynamic product pages, sliders, and forms with validation, enhancing engagement and reducing UI bugs across devices. Collaborated with designers to translate Figma flows into reusable components, streamlining handoff and ensuring visual consistency.",
+    tech: [
+      "figma",
+      "react",
+      "tailwindcss",
+      "expressjs",
+      "nodejs",
+      "mongodb",
+      "render",
+      "framer",
+    ],
+    logo: "/koiamorlogo.png",
+  },
+  {
+    company: "POSTMAN Community Pune ",
+    role: "Creative Lead",
+    start: "2025-02-01",
+    end: "2025-05-31",
+    description:
+      "Led the UI design and web layout for POSTMAN Community Pune’s digital presence, ensuring a seamless, branded experience. Designed high-quality swag assets, including event merchandise and digital giveaways that boosted community engagement. Created versatile mockups and marketing visuals to support events, talks, and workshops across digital platforms.",
+    tech: ["ps", "ai", "react", "canva", "figma"],
+    logo: "/postman.png",
+  },
+  {
     company: "ATOMIC HOUSE",
-    role: "Frontend Dev - Intern",
+    role: "Frontend Developer Intern",
     start: "2024-01-01",
     end: "2024-06-31",
     description:
@@ -37,15 +66,5 @@ export const experiences: Experience[] = [
       "Spearheaded club operations, leading a team of 15+ technical leads across design, development, and outreach verticals. Conducted multiple workshops on Frontend Development, UI/UX Design, Git & Git Bash, empowering peers with practical tech skills. Led the redesign and maintenance of the club’s official website, enhancing visual appeal and information accessibility. Performed data-driven analysis of event outcomes to optimize planning and engagement for future initiatives. Fostered collaboration and technical growth within the student community through mentorship and event leadership. Core Skills: Leadership, UI/UX, Web Maintenance, Git, Data Analysis, Public Speaking",
     tech: ["analytics", "github", "react", "canva", "figma"],
     logo: "/Pradnyan-2.png",
-  },
-  {
-    company: "POSTMAN Community Pune ",
-    role: "Creative Lead",
-    start: "2025-02-01",
-    end: "2025-05-31",
-    description:
-      "Led the UI design and web layout for POSTMAN Community Pune’s digital presence, ensuring a seamless, branded experience. Designed high-quality swag assets, including event merchandise and digital giveaways that boosted community engagement. Created versatile mockups and marketing visuals to support events, talks, and workshops across digital platforms.",
-    tech: ["ps", "ai", "react", "canva", "figma"],
-    logo: "/postman.png",
   },
 ];

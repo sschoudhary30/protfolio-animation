@@ -21,10 +21,6 @@ export const Navbar = () => {
       href: "/projects",
     },
     {
-      title: "Contact",
-      href: "/contact",
-    },
-    {
       title: "Blog",
       href: "/blog",
     },

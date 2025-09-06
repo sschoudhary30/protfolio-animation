@@ -17,11 +17,11 @@ const icons = [
   "bash",
   "bolt",
   "bootstrap5",
-  "bootstrap4",
+
   "canva",
-  "claude",
+
   "cloudinary",
-  "colab",
+
   "css3",
   "docker",
   "expressjs",
@@ -35,13 +35,13 @@ const icons = [
   "github",
   "gsap",
   "html5",
-  "huggingface",
+
   "java",
   "jquery",
   "js",
-  "kubernetes",
+
   "linux",
-  "lovable",
+
   "mongodb",
   "nextjs",
   "nodejs",
