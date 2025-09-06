@@ -191,3 +191,26 @@
     @apply bg-background text-foreground;
   }
 }
+
+* {
+  @apply cursor-auto;
+  @apply select-none;
+}
+
+button,
+a,
+[role="button"],
+[onclick] {
+  @apply cursor-pointer;
+}
+
+input,
+textarea,
+select {
+  @apply cursor-text;
+  @apply select-text;
+}
+
+.selectho {
+  @apply select-text;
+}

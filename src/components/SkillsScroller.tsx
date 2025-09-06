@@ -17,6 +17,7 @@ const icons = [
   "bash",
   "bolt",
   "bootstrap5",
+  "anthropic",
 
   "canva",
 
