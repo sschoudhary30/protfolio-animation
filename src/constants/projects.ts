@@ -31,7 +31,7 @@ export const projects: Project[] = [
     tags: ["Web", "UI/UX"],
   },
   {
-    title: "secureswap",
+    title: "SecureSwap",
     src: "/secureswap.png",
     description:
       "Secureswap is a peer-to-peer exchange platform that uses atomic-swap escrow and end-to-end encryption to enable trustless trades of any digital or physical asset. Built-in escrow powered by Firebase Functions and Razorpay API for seamless, secure payments. Crafted in HTML, Tailwind CSS, and JavaScript, it delivers a pixel-perfect, fully responsive UI enriched with high-quality SVG assets. Real-time data sync, auth, and transaction logging run on Firebase, ensuring tamper-proof, auditable trades. Modular architecture supports easy integration of reputation systems and future multi-chain interoperability.",

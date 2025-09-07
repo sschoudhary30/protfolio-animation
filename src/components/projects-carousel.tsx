@@ -30,7 +30,7 @@ export const ProjectsCarousel: React.FC<Props> = ({ projects }) => {
 
   return (
     <section className="pt-10 pb-20">
-      <h2 className="pb-4 text-2xl font-semibold">Featured work</h2>
+      <h2 className="pb-4 text-2xl font-semibold">Featured Work</h2>
 
       <div className="relative pb-5">
         <div ref={emblaRef} className="overflow-hidden">

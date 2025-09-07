@@ -16,9 +16,9 @@ export default function Home() {
   return (
     <div className="flex min-h-screen items-start justify-start">
       <Container className="min-h-screen px-10 md:pt-20 md:pb-10">
-        <Heading as="h1">Suresh choudhary 😶‍🌫️</Heading>
+        <Heading as="h1">Suresh Choudhary 😶‍🌫️</Heading>
         <SectionHeading className="text-secondary text-md md:text-md max-w-lg pt-2 font-semibold">
-          UI/UX · Graphic Design · Frontend Engineer
+          Frontend Engineer · UIUX
         </SectionHeading>
 
         <SubHeading>
@@ -42,7 +42,7 @@ export default function Home() {
               fontWeight: "bold",
             }}
           >
-            optimized UI/UX flows
+            optimized UIUX flows
           </span>
           , complemented by creative graphic and logo design🚀.
         </SubHeading>
