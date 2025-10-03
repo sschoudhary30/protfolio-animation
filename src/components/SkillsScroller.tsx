@@ -8,15 +8,12 @@ import StackIcon from "tech-stack-icons"; // ← adjust import path if different
 /* ───────────  ALL SKILL ICONS  ─────────── */
 
 const icons = [
-  "adobe",
-  "ae",
   "ai",
-  "analytics",
-  "aws",
+
   "babel",
-  "bash",
+
   "bolt",
-  "bootstrap5",
+
   "anthropic",
 
   "canva",
@@ -24,10 +21,10 @@ const icons = [
   "cloudinary",
 
   "css3",
-  "docker",
+
   "expressjs",
   "figma",
-  "firebase",
+
   "framer",
 
   // second row
@@ -38,10 +35,8 @@ const icons = [
   "html5",
 
   "java",
-  "jquery",
-  "js",
 
-  "linux",
+  "js",
 
   "mongodb",
   "nextjs",
@@ -49,7 +44,6 @@ const icons = [
   "npm",
   "ps",
   "react",
-  "threejs",
   "typescript",
   "tailwindcss",
 ];
